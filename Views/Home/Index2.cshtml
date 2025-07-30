@@ -1,0 +1,160 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Rental in Bihar | Affordable & Hassle-Free Car Hire</title>
+  <meta name="description" content="Book reliable car rentals in Bihar with competitive rates, well-maintained vehicles, and 24/7 customer support. Explore city tours, outstation drives, and airport transfers today!">
+  <meta name="keywords" content="Car rental Bihar, rent car Patna, taxi service Bihar, SUV rental Bihar, sedan hire Bihar, airport transfer Bihar">
+  <meta name="author" content="Bihar Car Rentals">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Car Rental in Bihar | Affordable & Hassle-Free Car Hire">
+  <meta property="og:description" content="Book reliable car rentals in Bihar with competitive rates, well-maintained vehicles, and 24/7 support.">
+  <meta property="og:image" content="C:\\Users\\Admin\\OneDrive\\Desktop\\bannercar.jpg">
+
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; background: #f4f7fa; }
+
+    /* NOTE: Browsers cannot load Windows paths directly. Replace `C:\\Users\\...\\bannercar.jpg` with a relative or absolute URL (e.g., `images/bannercar.jpg`). */
+    header {
+      background: url("C:\\Users\\Admin\\OneDrive\\Desktop\\bannercar.jpg") no-repeat center/cover;
+      color: #a03939;
+      text-align: center;
+      height: 20vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 1rem;
+    }
+    header h1 { margin: 0; font-size: 2.5rem; text-shadow: 1px 1px 4px rgba(0,0,0,0.5); }
+    header p  { font-size: 1.1rem; margin-top: 0.5rem; text-shadow: 1px 1px 3px rgba(0,0,0,0.4); }
+
+    .container { max-width: 1200px; margin: 0 auto; padding: 2rem 1rem; }
+    section { margin-bottom: 3rem; background: #fff; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    section:nth-child(even) { background: #e9f5ff; }
+    h2 { color: #00539C; margin: 1.5rem 0 0.5rem; text-align: center; }
+    .text-center { text-align: center; }
+
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); gap: 1rem; padding: 1rem; }
+    .feature { background: #fff; padding: 1rem; border-radius: 8px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .feature h3 { margin-top:0; color:#00539C; }
+
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); gap: 1rem; padding: 1rem; }
+    .gallery figure { margin: 0; overflow: hidden; border-radius: 8px; background: #fff; display: flex; flex-direction: column; }
+    .gallery img { width: 100%; height: 150px; object-fit: cover; }
+    figcaption { padding: 0.5rem; font-weight: bold; text-align: center; background: #f8f8f8; }
+
+    ul { list-style: disc inside; padding: 1rem; }
+
+    form { display: grid; gap: 0.75rem; max-width: 400px; margin: 0 auto 2rem; }
+    label { font-weight: bold; }
+    input, button { padding: 0.75rem; border: 1px solid #ccc; border-radius: 4px; font-size: 1rem; }
+    button { background: #00539C; color: #fff; border: none; cursor: pointer; transition: background 0.3s; }
+    button:hover { background: #003f7d; }
+
+    .faq { padding: 1rem; }
+    .faq dt { font-weight: bold; margin-top:1rem; }
+    .faq dd { margin-left:1rem; margin-bottom:1rem; }
+
+    footer { background: #00539C; color: #fff; text-align: center; padding: 2rem 1rem; }
+    footer a { color: #ffdd57; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Reliable Car Rental &amp; Hire in Bihar</h1>
+    <p>Your trusted partner for city tours, outstation trips, and airport transfers.</p>
+  </header>
+
+  <section class="container text-center">
+    <h2>Why Choose Bihar Car Rentals?</h2>
+    <div class="features">
+      <div class="feature"><h3>Competitive Rates</h3><p>Transparent pricing with no hidden fees.</p></div>
+      <div class="feature"><h3>Wide Fleet</h3><p>Choose from sedans, SUVs, premium cars &amp; more.</p></div>
+      <div class="feature"><h3>24/7 Support</h3><p>Round-the-clock assistance for peace of mind.</p></div>
+      <div class="feature"><h3>Easy Booking</h3><p>Instant online confirmation &amp; secure payment.</p></div>
+    </div>
+  </section>
+
+  <section id="fleet" class="container">
+    <h2 class="text-center">Our Fleet</h2>
+    <div class="gallery">
+      <figure><img src="C:\\Users\\Admin\\OneDrive\\Desktop\\car2.jpg" alt="White sedan" loading="lazy"><figcaption>Sedan</figcaption></figure>
+      <figure><img src="C:\\Users\\Admin\\OneDrive\\Desktop\\car1.jpg" alt="Black SUV" loading="lazy"><figcaption>SUV</figcaption></figure>
+      <figure><img src="C:\\Users\\Admin\\OneDrive\\Desktop\\car3.jpg" alt="Innova Crysta" loading="lazy"><figcaption>Innova Crysta</figcaption></figure>
+      <figure><img src="C:\\Users\\Admin\\OneDrive\\Desktop\\car3.jpg" alt="Tempo Traveller" loading="lazy"><figcaption>Tempo Traveller</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="services" class="container">
+    <h2 class="text-center">Our Services</h2>
+    <ul>
+      <li>City Rentals: Hourly &amp; Daily Packages</li>
+      <li>Outstation Rentals: Bihar &amp; Neighboring States</li>
+      <li>Airport Transfers: Patna &amp; Gaya Airports</li>
+      <li>One-Way &amp; Round Trips</li>
+    </ul>
+  </section>
+
+  <section id="booking" class="container">
+    <h2 class="text-center">Book Your Ride</h2>
+    <form action="#" method="post">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" placeholder="+91 9876543210" required>
+      <label for="pickup">Pick-Up Location:</label>
+      <input type="text" id="pickup" name="pickup" placeholder="City/Landmark" required>
+      <label for="date">Pick-Up Date &amp; Time:</label>
+      <input type="datetime-local" id="date" name="date" required>
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <section class="container">
+    <h2 class="text-center">Frequently Asked Questions</h2>
+    <dl class="faq">
+      <dt>Do you offer one-way rentals?</dt>
+      <dd>Yes, you can book one-way trips at transparent rates.</dd>
+      <dt>What is your cancellation policy?</dt>
+      <dd>Free cancellation up to 24 hours before pick-up time.</dd>
+      <dt>Are drivers available?</dt>
+      <dd>Professional drivers can be added to any booking.</dd>
+    </dl>
+  </section>
+
+  <footer>
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p><strong>Phone:</strong> <a href="tel:+919876543210">+91 98765 43210</a></p>
+      <p><strong>Email:</strong> <a href="mailto:info@bitrentalcars.com">info@bitrentalcars.com</a></p>
+      <p><strong>Address:</strong> 123 Car Rental Avenue, Patna, Bihar - 800001</p>
+      <p>&copy; 2025 Bihar Car Rentals. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@("@")context": "https://schema.org",
+    "@("@")type": "CarRental",
+    "name": "Bihar Car Rentals",
+    "image": "C:\\Users\\Admin\\OneDrive\\Desktop\\car1.jpg",
+    "description": "Book reliable car rentals in Bihar with competitive rates, well-maintained vehicles, and 24/7 customer support.",
+    "address": {"@("@")type":"PostalAddress","streetAddress":"123 Car Rental Avenue","addressLocality":"Patna","addressRegion":"Bihar","postalCode":"800001","addressCountry":"IN"},
+    "telephone": "+919876543210",
+    "email": "info@bitrentalcars.com",
+    "url": "https://www.bitrentalcars.com"
+  }
+  </script>
+</body>
+</html>

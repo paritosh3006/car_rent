@@ -1,0 +1,330 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Rental in Bihar | Affordable & Hassle-Free Car Hire</title>
+  <meta name="description" content="Book reliable car rentals in Bihar with competitive rates, well-maintained vehicles, and 24/7 customer support. Explore city tours, outstation drives, and airport transfers today!">
+  <meta name="keywords" content="Car rental Bihar, rent car Patna, taxi service Bihar, SUV rental Bihar, sedan hire Bihar, airport transfer Bihar">
+  <meta name="author" content="Bihar Car Rentals">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Car Rental in Bihar | Affordable & Hassle-Free Car Hire">
+  <meta property="og:description" content="Book reliable car rentals in Bihar with competitive rates, well-maintained vehicles, and 24/7 support.">
+  <meta property="og:image" content="/images/bannercar.jpg">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Reset default margin and padding for full-width */
+    body, html {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      min-width: 100vw;
+      overflow-x: hidden; /* Prevent horizontal scrollbar */
+    }
+    /* Custom animations */
+    @("@")keyframes slideIn {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    .animate-slide-in {
+      animation: slideIn 0.5s ease-out forwards;
+    }
+    /* Smooth scrolling */
+    html { scroll-behavior: smooth; }
+    /* Hero section background */
+/*    .hero-bg {
+      background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('/images/bannercar.jpg') no-repeat center/cover;
+      width: 100vw;
+      position: relative;
+      left: 50%;
+      right: 50%;
+      margin-left: -50vw;
+      margin-right: -50vw;
+    }
+*/    
+.hero-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('/images/pexels-bylukemiller-29566903.jpg') no-repeat center/cover;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    height: 500px; /* Adjust height as needed */
+}
+/* Ensure all sections are full-width */
+    .full-width-section {
+      width: 100vw;
+      position: relative;
+      left: 50%;
+      right: 50%;
+      margin-left: -50vw;
+      margin-right: -50vw;
+    }
+    /* Accordion transition */
+    .accordion-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-out;
+    }
+    .accordion-content.open {
+      max-height: 200px; /* Adjust based on content */
+    }
+  </style>
+</head>
+<body class="font-sans text-gray-800">
+  <!-- Navigation Bar -->
+  <nav class="bg-teal-900 text-white sticky top-0 z-50 shadow-lg full-width-section">
+    <div class="w-full max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="text-2xl font-bold">Bihar Car Rentals</div>
+        <div class="hidden md:flex space-x-6">
+          <a href="#home" class="hover:text-yellow-400 transition">Home</a>
+          <a href="#fleet" class="hover:text-yellow-400 transition">Our Fleet</a>
+          <a href="#services" class="hover:text-yellow-400 transition">Services</a>
+          <a href="#faq" class="hover:text-yellow-400 transition">FAQ</a>
+          <a href="#contact" class="hover:text-yellow-400 transition">Contact</a>
+        </div>
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden">
+          <button id="mobile-menu-btn" class="focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden md:hidden bg-blue-800">
+        <a href="#home" class="block px-4 py-2 hover:bg-blue-700">Home</a>
+        <a href="#fleet" class="block px-4 py-2 hover:bg-blue-700">Our Fleet</a>
+        <a href="#services" class="block px-4 py-2 hover:bg-blue-700">Services</a>
+        <a href="#faq" class="block px-4 py-2 hover:bg-blue-700">FAQ</a>
+        <a href="#contact" class="block px-4 py-2 hover:bg-blue-700">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section with Contact for Booking -->
+  <header id="home" class="hero-bg min-h-screen flex items-center justify-center text-center text-white full-width-section">
+    <div class="w-full max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center">
+      <!-- Title, Description, and Contact for Booking -->
+      <div class="text-center animate-slide-in">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 leading-tight">Reliable Car Rental & Hire in Bihar</h1>
+        <p class="text-lg md:text-xl mb-6">Your trusted partner for city tours, outstation trips, and airport transfers.</p>
+        <div class="bg-white p-6 rounded-lg shadow-lg text-red-800 max-w-md mx-auto">
+          <h2 class="text-2xl font-bold text-blue-900 mb-4">Contact for Booking</h2>
+          <p class="text-lg mb-4">Call us now to book your ride!</p>
+          <a href="tel:+919876543210" class="bg-Thistle-400 text-blue-900 px-6 py-3 rounded-full font-semibold hover:bg-Thistle-500 transition inline-flex items-center">
+            <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+            </svg>
+            +91 94305 35330
+          </a>
+        </div>
+        <a href="#fleet" class="mt-6 bg-Thistle-400 text-white-900 px-6 py-3 rounded-full font-semibold hover:bg-Thistle-500 transition inline-block">Explore Our Fleet</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section class="py-16 bg-blue-50 full-width-section">
+    <div class="w-full max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl md:text-4xl font-bold text-center text-blue-900 mb-12 animate-slide-in">Why Choose Bihar Car Rentals?</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition animate-slide-in">
+          <h3 class="text-xl font-semibold text-blue-900 mb-2">Competitive Rates</h3>
+          <p>Transparent pricing with no hidden fees.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition animate-slide-in">
+          <h3 class="text-xl font-semibold text-blue-900 mb-2">Wide Fleet</h3>
+          <p>Choose from sedans, SUVs, premium cars & more.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition animate-slide-in">
+          <h3 class="text-xl font-semibold text-blue-900 mb-2">24/7 Support</h3>
+          <p>Round-the-clock assistance for peace of mind.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition animate-slide-in">
+          <h3 class="text-xl font-semibold text-blue-900 mb-2">Easy Booking</h3>
+          <p>Instant online confirmation & secure payment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fleet Section -->
+  <section id="fleet" class="py-16 bg-blue-50 full-width-section">
+    <div class="w-full max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl md:text-4xl font-bold text-center text-blue-900 mb-12 animate-slide-in">Our Fleet</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <figure class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition animate-slide-in">
+          <img src="/images/creta2.jpg" alt="White sedan" class="w-full h-48 object-cover">
+          <figcaption class="p-4 text-center font-semibold bg-gray-100">Sedan</figcaption>
+        </figure>
+        <figure class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition animate-slide-in">
+          <img src="/images/suv.jpg" alt="Black SUV" class="w-full h-48 object-cover">
+          <figcaption class="p-4 text-center font-semibold bg-gray-100">SUV</figcaption>
+        </figure>
+        <figure class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition animate-slide-in">
+          <img src="/images/Toyota Innova Hycross Front View.jpg" alt="Innova Crysta" class="w-full h-48 object-cover">
+          <figcaption class="p-4 text-center font-semibold bg-gray-100">Innova Crysta</figcaption>
+        </figure>
+        <figure class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition animate-slide-in">
+          <img src="/images/Tempo Traveller Rental Delhi.jpg" alt="Tempo Traveller" class="w-full h-48 object-cover">
+          <figcaption class="p-4 text-center font-semibold bg-gray-100">Tempo Traveller</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-16 bg-gradient-to-r from-blue-50 to-blue-50 full-width-section">
+    <div class="w-full max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl md:text-4xl font-extrabold text-center text-blue-900 mb-12 animate-slide-in">Our Services</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition transform hover:-translate-y-1 animate-slide-in flex items-start">
+          <svg class="w-8 h-8 text-yellow-400 mr-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3-2" />
+          </svg>
+          <div>
+            <h3 class="text-xl font-semibold text-blue-900 mb-2">City Rentals</h3>
+            <p class="text-gray-600">Flexible hourly and daily packages for city travel.</p>
+          </div>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition transform hover:-translate-y-1 animate-slide-in flex items-start">
+          <svg class="w-8 h-8 text-yellow-400 mr-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+          <div>
+            <h3 class="text-xl font-semibold text-blue-900 mb-2">Outstation Rentals</h3>
+            <p class="text-gray-600">Comfortable trips across Bihar and neighboring states.</p>
+          </div>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition transform hover:-translate-y-1 animate-slide-in flex items-start">
+          <svg class="w-8 h-8 text-yellow-400 mr-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0-2v-8" />
+          </svg>
+          <div>
+            <h3 class="text-xl font-semibold text-blue-900 mb-2">Airport Transfers</h3>
+            <p class="text-gray-600">Seamless transfers to/from Patna & Gaya airports.</p>
+          </div>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition transform hover:-translate-y-1 animate-slide-in flex items-start">
+          <svg class="w-8 h-8 text-yellow-400 mr-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16" />
+          </svg>
+          <div>
+            <h3 class="text-xl font-semibold text-blue-900 mb-2">One-Way & Round Trips</h3>
+            <p class="text-gray-600">Flexible travel options for all your needs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="py-16 bg-blue-50 full-width-section">
+    <div class="w-full max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl md:text-4xl font-extrabold text-center text-blue-900 mb-12 animate-slide-in">Frequently Asked Questions</h2>
+      <div class="w-full max-w-3xl mx-auto space-y-4">
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <button class="accordion-toggle w-full text-left p-6 flex justify-between items-center text-xl font-semibold text-blue-900 hover:bg-blue-50 transition">
+            Do you offer one-way rentals?
+            <svg class="w-6 h-6 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="accordion-content">
+            <p class="p-6 text-gray-600">Yes, you can book one-way trips at transparent rates.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <button class="accordion-toggle w-full text-left p-6 flex justify-between items-center text-xl font-semibold text-blue-900 hover:bg-blue-50 transition">
+            What is your cancellation policy?
+            <svg class="w-6 h-6 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="accordion-content">
+            <p class="p-6 text-gray-600">Free cancellation up to 24 hours before pick-up time.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <button class="accordion-toggle w-full text-left p-6 flex justify-between items-center text-xl font-semibold text-blue-900 hover:bg-blue-50 transition">
+            Are drivers available?
+            <svg class="w-6 h-6 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="accordion-content">
+            <p class="p-6 text-gray-600">Professional drivers can be added to any booking.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-teal-900 text-white sticky top-0 z-50 shadow-lg full-width-section">
+    <div class="w-full max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl font-bold text-center mb-6">Contact Us</h2>
+      <div class="text-center space-y-2">
+        <p><strong>Phone:</strong> <a href="tel:+919876543210" class="text-yellow-400 hover:text-yellow-500">+91 94305 35330</a></p>
+        <p><strong>Address:</strong> Belisarai Motihari, Near Station Road, Motihari</p>
+        <p class="mt-4">&copy; 2025 Bihar Car Rentals. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@("@")context": "https://schema.org",
+    "@("@")type": "CarRental",
+    "name": "Bihar Car Rentals",
+    "image": "/images/car1.jpg",
+    "description": "Book reliable car rentals in Bihar with competitive rates, well-maintained vehicles, and 24/7 customer support.",
+    "address": {
+      "@("@")type": "PostalAddress",
+      "streetAddress": "Belisarai Motihari, Near Station Road",
+      "addressLocality": "Motihari",
+      "addressRegion": "Bihar",
+      "postalCode": "845401",
+      "addressCountry": "IN"
+    },
+    "telephone": "+91 94305 35330",
+    "url": "https://www..com"
+  }
+  </script>
+
+  <!-- Mobile Menu and Accordion Script -->
+  <script>
+    // Mobile Menu Toggle
+    document.getElementById('mobile-menu-btn').addEventListener('click', () => {
+      const menu = document.getElementById('mobile-menu');
+      menu.classList.toggle('hidden');
+    });
+
+    // Accordion Toggle
+    document.querySelectorAll('.accordion-toggle').forEach(button => {
+      button.addEventListener('click', () => {
+        const content = button.nextElementSibling;
+        const isOpen = content.classList.contains('open');
+        // Close all other accordions
+        document.querySelectorAll('.accordion-content.open').forEach(openContent => {
+          openContent.classList.remove('open');
+          openContent.previousElementSibling.querySelector('svg').classList.remove('rotate-180');
+        });
+        // Toggle current accordion
+        if (!isOpen) {
+          content.classList.add('open');
+          button.querySelector('svg').classList.add('rotate-180');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
